@@ -18,7 +18,7 @@ public class DragAndDropTest {
     }
 
     @Test
-    void DragActionTest() {
+    void dragActionTest() {
 
         // Drag&Drop с помощью Selenide.actions()
         open("/drag_and_drop");
@@ -28,7 +28,7 @@ public class DragAndDropTest {
     }
 
     @Test
-    void DragElementTest() {
+    void dragElementTest() {
 
         // вариант $(element).dragAndDrop($(to-element))
         open("/drag_and_drop");
